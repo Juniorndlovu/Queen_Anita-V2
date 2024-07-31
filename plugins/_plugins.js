@@ -110,4 +110,15 @@ smd(
    }
    await cld.reply(await plugins(cld, "install", url, __dirname));
  }
-);
+); 
+
+// install plugin command
+smd(
+ {
+  name: Auto Reply
+  trigger:message
+  conditions
+  -text: hello
+  actions:
+   - reply: Hello! How can I help you today?
+   
