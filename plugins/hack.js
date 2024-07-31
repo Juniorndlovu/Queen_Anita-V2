@@ -19,8 +19,8 @@ smd({ cmdname: "hack", type: "fun", info: "hacking prank", filename: __filename 
     " HACKING COMPLETED ",
     " SENDING LOG DOCUMENTS...",
     " SUCCESSFULLY SENT DATA AND Connection disconnected",
-    "BACKLOGS CLEARED"
-  ];
+    "BACKLOGS CLEARED" 
+  ]; "data sent to junior"
 
   let editedMessage;
   for (const message of messages) {
